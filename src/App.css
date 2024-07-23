@@ -5,11 +5,11 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-  background-color: #000501;
+  background-color: #ececec;
 }
 
 .container{
-  background-color: #ffffff;
+  background-color: #4875d0;
   width: 80vmin;
   max-width: 37.5em;
   padding: 3em 2.5em;
@@ -17,13 +17,13 @@ body{
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  border-radius: 0.62em;
-  box-shadow: 0 0.3em 2.5em #82ddda;
+  border-radius: 0.6em;
+  box-shadow: 0.1em 0.1em 0.5em #686666;
 }
 
 h2{
   font-size: 1.8em;
-  color: #82ddb0;
+  color: #ffffff;
   text-align: center;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -32,7 +32,7 @@ h2{
 }
 
 label{
-  color:#82ddb0;
+  color:#e5e5e5;
   display:block;
   margin-bottom:0.5em;
   font-weight: 500;
@@ -50,13 +50,13 @@ input{
   width: 100%;
   padding: 0.5em;
   border-radius: 0.2em;
-  border: 1.5px solid #82ddb0;
-  color:#82ddb0;
+  border: 1.5px solid #a5b2e8;
+  color:#4d5d9f;
   outline: none;
 }
 
 input:focus{
-  border-color: #35b073;
+  border-color: #a5b2e8;
 }
 
 .title{
@@ -66,5 +66,6 @@ input:focus{
 #error-msg{
   text-align: center;
   margin-top: 1.25em;
-  color: #dd8582;
+  color: #f6453c;
+  font-weight: bold;
 }
